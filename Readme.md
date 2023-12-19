@@ -52,8 +52,8 @@ docker run -p 8080:8080 taskprocessing
   "id": 1,
   "input": "ABCD",
   "pattern": "BCD",
-  "status": 0,
-  "position": 0,
+  "status": 100,
+  "position": 1,
   "typos": 0
   }
     ```
@@ -69,18 +69,18 @@ docker run -p 8080:8080 taskprocessing
   [
   {
   "id": 1,
-  "input": "PWFLOMVLYVNHEZEJNKSYBLDWONKRWHSP",
-  "pattern": "KRA",
-  "status": 100,
-  "position": 26,
-  "typos": 1
-  },
-  {
-  "id": 2,
   "input": "ABCD",
   "pattern": "BCD",
   "status": 100,
   "position": 1,
+  "typos": 0
+  }
+  {
+  "id": 2,
+  "input": "ABCABC",
+  "pattern": "ABC",
+  "status": 100,
+  "position": 0,
   "typos": 0
   }
   ]
